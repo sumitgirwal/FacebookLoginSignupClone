@@ -1,0 +1,128 @@
+body {
+  background-color: #f0f2f5;
+  margin: 0;
+  font-family: Helvetica, Arial;
+}
+
+/*
+
+1877f2 blue
+42b72a green
+
+
+*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  margin-top: 114px;
+  margin-bottom: 114px;
+}
+
+.left img {
+  width: 320px;
+  /* padding: 12px 0 16px; */
+}
+
+.left-title {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  margin-left: 40px;
+}
+.left {
+  
+  width: 580px;
+}
+.right {
+  align-items: center;
+  flex-direction: column;
+
+  width: 396px px;
+  vertical-align: middle;
+}
+
+.form-container {
+  background-color: white;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(231, 229, 229);
+  border-radius: 5px;
+  padding: 14px 14px;
+  /* height: 456px; */
+  width: 386px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-form input {
+  font-size: 16px;
+  padding: 14px 16px;
+  border-radius: 5px;
+  border-color: rgb(225, 223, 223);
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 20px;
+}
+
+.right-form input::placeholder {
+  color: rgb(158, 156, 156);
+}
+
+.primary {
+  background-color: #1877f2;
+  color: white;
+
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 8px;
+}
+
+.secondary {
+  color: white;
+  background-color: #42b72a;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  padding: 13px 14px;
+}
+
+.form-container a {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+    margin-top: 100px;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  margin: 20px 0px;
+}
+
+.right-title {
+  font-size: 14px;
+  /* margin-top: 20px; */
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
