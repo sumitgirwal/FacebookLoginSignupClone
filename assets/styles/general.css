@@ -4,14 +4,6 @@ body {
   font-family: Helvetica, Arial;
 }
 
-/*
-
-1877f2 blue
-42b72a green
-
-
-*/
-
 main {
   display: flex;
   justify-content: center;
@@ -36,8 +28,8 @@ main {
   margin-left: 40px;
 }
 .left {
-  
-  width: 580px;
+   
+  width: 630px;
 }
 .right {
   align-items: center;
@@ -83,12 +75,18 @@ main {
 .primary {
   background-color: #1877f2;
   color: white;
-
   font-size: 18px;
   font-weight: 700;
   border: none;
   border-radius: 6px;
   padding: 14px 8px;
+  cursor: pointer;
+  transition: background-color 0.125s;
+  
+}
+
+.primary:hover {
+  background-color: #156cdd;
 }
 
 .secondary {
@@ -99,6 +97,13 @@ main {
   border: none;
   border-radius: 6px;
   padding: 13px 14px;
+  cursor: pointer;
+  transition: background-color 0.125s;
+}
+
+.secondary:hover {
+  background-color: #3ca926;
+  
 }
 
 .form-container a {
@@ -125,4 +130,10 @@ hr {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+
+.right-down {
+  text-align: center;
+  margin-top: 18px;
 }
